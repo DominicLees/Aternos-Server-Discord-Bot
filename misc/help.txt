@@ -1,0 +1,8 @@
+The command prefix is 'mc'
+Here is a list of all of the commands:
+awake - the bot will respond to this message so that you know the bot is online
+server - the bot sends the server details
+status - the bot sends the current server status
+online - the bots the current number of players online
+start - starts the server if it is offline, the bot will reply to your message when it comes online
+stop - stops the server if no one is online
