@@ -46,7 +46,7 @@ async def on_ready():
 
 
 def is_command(command, message):
-    return message.content.startswith(PREFIX + " " + command)
+    return message.content.startswith(PREFIX + command)
 
 # Returns the current status of the server. You need to go through aternos each time to get the updated status.
 def get_server_status():
@@ -75,7 +75,7 @@ async def on_message(message):
 
     # Awake - respond to the user so they know the bot is online
     if is_command("awake", message):
-        await message.channel.send("steve steve west mine")
+        await message.channel.send("I'm online")
 
     # server - respond with the server details the user needs to connect
     elif is_command("server", message):
