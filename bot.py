@@ -42,7 +42,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Connected to discord as user " + client.user.name)
-    await client.change_presence(activity=discord.Game(name=(PREFIX+" help")))
+    await client.change_presence(activity=discord.Game(name=(PREFIX+"help")))
 
 
 def is_command(command, message):
